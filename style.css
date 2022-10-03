@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+header {
+    min-height: 70px;
+    background-color: rgb(42, 42, 255);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    font-size: 15px;
+}
+
+nav {
+    width: 33%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#item1 {
+    align-self: flex-start;
+}
+
+#accedi {
+    color: black;
+}
+
+#cer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 70px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+}
