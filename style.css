@@ -20,7 +20,6 @@ nav {
 }
 
 nav ul {
-    
     display: flex;
     justify-content: space-around;
     list-style-type: none;
@@ -216,12 +215,111 @@ a {
 }
 
 footer {
-    height: 500px;
+    height: 560px;
     background-color: rgb(60, 61, 65);
     margin-top: 100px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#arrowhead {
-    
+#top {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    min-width: 917px;
 }
 
+#social {
+    width: 28%;
+}
+
+.testa {
+    color: rgb(75, 112, 192);
+}
+
+.grande {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.lingua {
+    display: flex;
+    width: 32%;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.ita {
+    line-height: 20px;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+#flag {
+    background-image: url(img/it.svg);
+    width: 20px;
+    height: 17px;
+    margin-top: 4px;
+}
+
+#arrow {
+    height: 8px;
+}
+
+.simboli {
+    color: white;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.lista {
+    color: white;
+    font-size: 15px;
+}
+
+div ul {
+    list-style-type: none;
+}
+
+div ul li {
+    margin-bottom: 15px;
+}
+
+.due, .tre, .quattro {
+    margin-left: 80px;
+}
+
+#top>div {
+    margin-top: 80px;
+}
+
+#hrsub {
+    min-width: 917px;
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(75, 112, 192);
+    border: none; 
+}
+
+#reg {
+    color: white;
+    background-color: rgb(104, 135, 201);
+    height: 30px;
+    width: 90px;
+    line-height: 30px;
+    padding-left: 21px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#sub {
+    min-width: 917px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
