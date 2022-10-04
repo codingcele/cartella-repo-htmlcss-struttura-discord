@@ -116,6 +116,10 @@ a {
     font-size: 20px;
 }
 
+.container {
+    margin-top: 40px;
+}
+
 .one {
     min-height: 460px;
     display: flex;
@@ -123,8 +127,8 @@ a {
 }
 
 .imma {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     align-self: center;
 }
 
@@ -149,3 +153,75 @@ a {
 .scnd{
     order: 1;
 }
+
+.last {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.immagine {
+    width: 900px;
+    height: 400px;
+    margin-top: 40px;
+}
+
+#blue {
+    background-color: rgb(107, 90, 204);
+    padding: 5px;
+    padding-left: 17px;
+    padding-right: 17px;
+    line-height: 30px;
+    border-radius: 20px 20px 20px 20px;
+    width: 130px;
+    height: 30px;
+}
+
+#frecciabianca {
+    color: white;
+}
+
+.testo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tit {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#sottotitolo {
+    line-height: 27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foo {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#contfoot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    height: 500px;
+    background-color: rgb(60, 61, 65);
+    margin-top: 100px;    
+}
+
+#arrowhead {
+    
+}
+
